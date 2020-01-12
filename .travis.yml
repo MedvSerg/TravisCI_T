@@ -13,8 +13,11 @@ install:
   #script
 script: 
   - python3 test_fruits.py
-
-
+  - mkdir ShortStory
+  - cd ShortStory
+  - touch KKK
+  - echo 5
+  
 #after script
   #after success
   #after failure
