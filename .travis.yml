@@ -1,15 +1,19 @@
 language: python
 python:
 - 3.4
-script: python3 test_fruits.py
 
 #installation
   #befor install
   #install
+install:
+  - pip install -r requirements.txt
 
 #script
   #before script
   #script
+script: 
+  - python3 test_fruits.py
+
 
 #after script
   #after success
