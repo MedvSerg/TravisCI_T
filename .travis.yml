@@ -2,3 +2,32 @@ language: python
 python:
 - 3.4
 script: python3 test_fruits.py
+
+#installation
+  #befor install
+  #install
+
+#script
+  #before script
+  #script
+
+#after script
+  #after success
+  #after failure
+
+#deploy
+  #before deploy
+  #deploy
+  #after deploy
+
+#safelist
+branches:
+  only:
+  - master
+  - /[utp][a-q]*[t]\b//
+  
+#blocklist
+branches:
+  exept:
+  - opt
+# comments
